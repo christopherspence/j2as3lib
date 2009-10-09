@@ -1,4 +1,4 @@
-package com.orbitalsoft.test;
+package com.j2as3lib.test;
 
 import flash.display.*;
 
