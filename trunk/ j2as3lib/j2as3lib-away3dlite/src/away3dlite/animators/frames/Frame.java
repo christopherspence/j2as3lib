@@ -1,4 +1,4 @@
-package away3dlite.animators;
+package away3dlite.animators.frames;
 
 import flash.base.Vector;
 
