@@ -1,6 +1,7 @@
 package away3dlite.animators;
 
 import flash.base.Vector;
+import away3dlite.animators.frames.Frame;
 import away3dlite.core.base.Mesh;
 
 /**
