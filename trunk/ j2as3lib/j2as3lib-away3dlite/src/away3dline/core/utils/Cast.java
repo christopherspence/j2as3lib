@@ -2,6 +2,7 @@ package away3dline.core.utils;
 
 import away3dlite.materials.Material;
 import flash.display.BitmapData;
+import flash.utils.ByteArray;
 
 /**
  * Helper class for casting assets to usable objects 
