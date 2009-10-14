@@ -2,6 +2,8 @@ package com.j2as3lib.test;
 
 import flash.display.*;
 import flash.events.*;
+import flash.text.StyleSheet;
+import flash.text.TextField;
 
 public class SpriteTest extends MovieClip {
 	
@@ -40,6 +42,14 @@ public class SpriteTest extends MovieClip {
 		sprite1.addEventListener(MouseEvent.CLICK, clickSprite);
 		sprite2.addEventListener(MouseEvent.CLICK, clickSprite);	
 		
+		StyleSheet myStyleSheet = new StyleSheet();
+		
+		Object myObject = new Object();
+		myStyleSheet.setStyle("A", {textDecoration: "underline", color: "#0000FF"});
+		TextField myWebLink = new TextField();
+		myWebLink.styleSheet = myStyleSheet;
+		myWebLink.htmlText = "Vision <A HREF='http://flashgameu.com'>FlashGameU.com</A>!";
+		addChild(myWebLink);
 		
 	}
 	
