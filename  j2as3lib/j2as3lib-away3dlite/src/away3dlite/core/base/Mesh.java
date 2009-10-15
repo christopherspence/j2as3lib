@@ -2,7 +2,6 @@ package away3dlite.core.base;
 
 import away3dlite.materials.Material;
 import flash.base.Vector;
-import flash.geom.*;
 
 public class Mesh extends Object3D {
 
