@@ -45,7 +45,7 @@ public class Channel {
 	 * @param time Defines the time in seconds of the playhead of the animation. 
 	 * @param interpolate [optional] Defines whether the animation interpolates between channel points Defaults to true. 
 	 */
-	public void update(int time, boolean interpolate) {
+	public void update(float time, boolean interpolate) {
 		
 	}
 }
