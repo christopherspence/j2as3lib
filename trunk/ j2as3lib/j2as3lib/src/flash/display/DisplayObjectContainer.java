@@ -2,10 +2,31 @@ package flash.display;
 
 import flash.base.Array;
 import flash.geom.Point;
+import flash.text.TextSnapshot;
 
 public class DisplayObjectContainer extends InteractiveObject {
 
-	// TODO - PROPERTIES 
+	// PROPERTIES
+	
+	/**
+	 * Determines whether or not the children of the object are mouse enabled.
+	 */
+	public boolean mouseChildren;
+	
+	/**
+	 * [read-only] Returns the number of children of this object.
+	 */
+	public int numChildren;
+	
+	/**
+	 * Determines whether the children of the object are tab enabled.
+	 */
+	public boolean tabChildren;
+		
+	/**
+	 * [read-only] Returns a TextSnapshot object for this DisplayObjectContainer instance.
+	 */
+	public TextSnapshot textSnapshot;
 	
 	/**
 	 * Calling the new DisplayObjectContainer() constructor throws an ArgumentError exception.
