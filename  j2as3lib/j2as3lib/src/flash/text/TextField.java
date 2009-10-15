@@ -32,7 +32,7 @@ public class TextField extends InteractiveObject {
 	/**
 	 * The color of the text field background.
 	 */
-	public boolean backgroundColor;
+	public byte backgroundColor;
 	
 	/**
 	 * Specifies whether the text field has a border.
@@ -42,7 +42,7 @@ public class TextField extends InteractiveObject {
 	/**
 	 * The color of the text field border. The default value is 0x000000 (black). This property can be retrieved or set, even if there currently is no border, but the color is visible only if the text field has the border property set to true. 
 	 */
-	public int borderColor;
+	public byte borderColor;
 	
 	/**
 	 *  An integer (1-based index) that indicates the bottommost line that is currently visible in the specified text field. Think of the text field as a window onto a block of text. The scrollV property is the 1-based index of the topmost visible line in the window.
@@ -174,7 +174,7 @@ public class TextField extends InteractiveObject {
 	/**
 	 *  The color of the text in a text field, in hexadecimal format. The hexadecimal color system uses six digits to represent color values. Each digit has sixteen possible values or characters. The characters range from 0 to 9 and then A to F. For example, black is 0x000000; white is 0xFFFFFF. 
 	 */
-	public int textColor;
+	public byte textColor;
 	
 	/**
 	 *  The height of the text in pixels. 

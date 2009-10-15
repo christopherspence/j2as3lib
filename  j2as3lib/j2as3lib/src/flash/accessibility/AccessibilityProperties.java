@@ -7,5 +7,5 @@ import flash.base.Object;
  * @author cspence
  */
 public class AccessibilityProperties extends Object {
-
+	// TODO
 }
